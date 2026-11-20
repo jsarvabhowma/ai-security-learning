@@ -6,20 +6,24 @@ AI, demonstrated through hands-on certifications and lab evidence.
 ## Sequence
 
 ```text
-1. CAISP  ──>  2. CAASE  ──>  3. HTB COAE (optional)
-LLM and AI     Agentic AI      Offensive AI engagement
-security       security        and professional reporting
+1. Hugging Face Agents Course ──> 2. CAISP ──> 3. CAASE ──> 4. HTB COAE (optional)
+Agent foundations                 LLM/AI       Agentic       Offensive AI engagement
+                                 security     security      and professional reporting
 ```
 
-| Step | Certification | Focus | Exam format | Dates |
+| Step | Learning step | Focus | Exam format | Dates |
 | --- | --- | --- | --- | --- |
-| 1 | [CAISP](certifications/CAISP/README.md) | AI/LLM attacks and defenses, supply chain, threat modelling | 5 practical challenges in 6 hours plus a report | To be scheduled |
-| 2 | [CAASE](certifications/CAASE/README.md) | Attacking and defending AI agents, tools, memory and delegation | 5 practical challenges in 6 hours plus a report | To be scheduled after confirming availability |
-| 3 | [HTB COAE](certifications/COAE/README.md) | AI red-team engagement against hosted targets | 7-day practical exam with a client-ready report | Optional; decide after CAASE |
+| 1 | [Hugging Face Agents Course](learning-paths/hugging-face-agents/README.md) (Units 1–2) | Agent fundamentals and frameworks, including tools, actions, observations, smolagents, LangGraph and LlamaIndex | No exam required for this learning path; the course offers assignments and a completion certificate | Before CAISP |
+| 2 | [CAISP](learning-paths/CAISP/README.md) | AI/LLM attacks and defenses, supply chain, threat modelling | 5 practical challenges in 6 hours plus a report | To be scheduled |
+| 3 | [CAASE](learning-paths/CAASE/README.md) | Attacking and defending AI agents, tools, memory and delegation | 5 practical challenges in 6 hours plus a report | To be scheduled after confirming availability |
+| 4 | [HTB COAE](learning-paths/COAE/README.md) | AI red-team engagement against hosted targets | 7-day practical exam with a client-ready report | Optional; decide after CAASE |
 
-Practical DevSecOps describes CAASE as building on CAISP, so CAISP comes first.
-COAE overlaps with both, but adds a longer offensive engagement and requires the
-full Hack The Box *AI Red Teamer* path before the exam.
+The Hugging Face course is a free preparatory step, not a prerequisite or
+security certification. Units 1–2 provide enough agent and framework context
+for this path; the remaining units are optional. Practical DevSecOps describes
+CAASE as building on CAISP, so CAISP comes before CAASE. COAE overlaps with
+both, but adds a longer offensive engagement and requires the full Hack The Box
+*AI Red Teamer* path before the exam.
 
 ## Dutch employer evidence
 
