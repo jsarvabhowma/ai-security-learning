@@ -1,42 +1,29 @@
-# AI Workload Defense
+# AI Security Learning Paths
 
-A personal learning and planning workspace for AI security, workload
-protections, and the architecture skills needed to build secure AI-enabled
-systems. The repository currently contains a learning roadmap and placeholders
-for architecture notes, lab infrastructure, and study reflections; it does not
-yet contain a runnable application or configured lab services.
+A personal study workspace for three practical AI security certifications,
+supported by shared notes and labs.
 
-## Contents
+## Learning paths
 
-| Area | Resource | Description |
+| Order | Certification | Why | Status |
+| --- | --- | --- | --- |
+| 1 | [CAISP](certifications/CAISP/README.md) | Start with practical AI and LLM security. | Paid by employer |
+| 2 | [CAASE](certifications/CAASE/README.md) | Build on that with agent-specific attacks and defenses. | Paid by employer |
+| 3 | [HTB COAE](certifications/COAE/README.md) | Optional next step for deeper offensive AI; its practical exam lasts seven days. | Optional |
+
+The [roadmap](roadmap.md) describes the sequence and what to confirm before
+scheduling each exam.
+
+## Shared resources
+
+| Area | Resource | Used by |
 | --- | --- | --- |
-| Roadmap | [AI Security Master Plan](journal/AI_Security_Master_Plan.md) | Learning and certification timeline, study priorities, and planned milestones for 2026–2027. |
-| Architecture notes | [NIST AI Risk Management Framework](architecture-notes/nist-ai-rmf.md) | Placeholder for notes on applying the NIST AI RMF to AI workload security. |
-| Architecture notes | [OWASP Top 10 for LLM Applications](architecture-notes/owasp-llm-top10.md) | Placeholder for notes on LLM application risks and mitigations. |
-| Infrastructure labs | [Docker Compose configuration](infrastructure-labs/docker-compose.yml) | Placeholder for local lab services; no services are currently configured. |
-| Journal | [Journal index](journal/index.md) | Placeholder for an index of study notes and reflections. |
-| Journal | [CompTIA reflections](journal/2027-02-comptia-reflections.md) | Placeholder for reflections on the planned SecAI+ study and exam period. |
-| Journal | [Mentor insights](journal/2027-04-mentor-insights.md) | Placeholder for mentor feedback and follow-up notes. |
+| Frameworks | [OWASP Top 10 for LLM Applications](shared/architecture-notes/owasp-llm-top10.md) | CAISP, CAASE, COAE |
+| Frameworks | [NIST AI Risk Management Framework](shared/architecture-notes/nist-ai-rmf.md) | CAISP, CAASE |
+| Research | [Adversarial research](shared/adversarial-research/README.md) | CAISP, COAE |
+| Labs | [Infrastructure labs](shared/infrastructure-labs/README.md) | CAASE, COAE |
+| Research | [Dutch employer recognition](research/netherlands-employer-recognition.md) | All |
+| Journal | [Study journal](journal/index.md) | All |
 
-## Roadmap at a glance
-
-The master plan balances Dutch civic-integration exams with technical study:
-
-1. Prepare for the DUO listening exam in November 2026.
-2. Maintain language practice during the planned November 2026–January 2027 break.
-3. Resume technical study with CompTIA SecAI+ (CY0-001) in early 2027.
-4. Target the DUO writing, speaking, and KNM exams from March through May 2027.
-5. Build toward the Hack The Box Certified Offensive AI Expert (COAE) track and
-   planned exam window in June–September 2027.
-
-Dates, costs, and plans are recorded in the [master plan](journal/AI_Security_Master_Plan.md)
-and may change.
-
-## Getting started
-
-- Start with the [master plan](journal/AI_Security_Master_Plan.md) for priorities
-  and milestones.
-- Use the [journal index](journal/index.md) to find or add study reflections as
-  those notes are developed.
-- Architecture notes and the Docker Compose lab are currently placeholders, so
-  there are no configured services or lab commands to run yet.
+Shared notes and labs are starting points; no lab services are configured yet.
+Only attack systems you own or are explicitly authorized to test.
